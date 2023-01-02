@@ -5,8 +5,10 @@ import Layout from "./components/Layout"
 function App() {
   return (
     <div className={style.app}>
-      <Layout />
-      <Home />
+      <Layout>
+        <Home />
+      </Layout>
+
     </div>
   )
 }
